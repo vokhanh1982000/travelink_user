@@ -1,0 +1,207 @@
+.header-book {
+    width: 100%;
+    height: auto;
+    background-color: white;
+  }
+  .logo-book img {
+    width: 10%;
+    margin-left: 3rem;
+  }
+  .book-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    margin-top: 15px;
+  }
+  #loader {
+    height: 2px;
+    background-color: blue;
+  }
+  .book-content-wrapper input {
+    border-radius: 5px;
+  }
+  .customer-input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+  }
+  .customer-name input {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .phone input {
+    width: 200%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .email input {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .wrap1 {
+    padding: 15px;
+    background-color: white;
+  }
+  .customer-info-input-wrapper {
+    padding: 15px;
+    background-color: white;
+  }
+  .customer-phone-email {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .phone {
+    display: flex;
+    flex-direction: column;
+  }
+  .email {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-checkbox {
+    display: flex;
+  }
+  .container-yeucau {
+    display: flex;
+  }
+  .container-yeucau input {
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .container-yeucau .checkmark {
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    margin-right: 1em;
+    border-radius: 5px;
+  }
+  .container-yeucau:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  .container-yeucau input:checked ~ .checkmark {
+    background-color: #2196f3;
+  }
+  .container-yeucau input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container-yeucau .checkmark:after {
+    margin: 10px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .container-yeucau .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .checkbox-wrapper input {
+    margin: 0 1em 0 1em;
+    width: 20px;
+    height: 20px;
+  }
+  .yeucau {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+  .huyphong {
+    background-color: white;
+  }
+  .covid {
+    background-color: white;
+  }
+  .chitietgia {
+    background-color: white;
+  }
+  .thanhtoan {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+  }
+  .xacnhan {
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .xacnhan .xacnhan-button {
+    height: 20%;
+    width: 20%;
+    font-size: 1em;
+  }
+  .xacnhan p {
+    width: 40%;
+    font-size: 1em;
+  }
+  .tieude {
+    margin: 15px 0 15px 0;
+  }
+  .huyphong {
+    padding: 15px;
+  }
+  .covid {
+    padding: 15px;
+  }
+  .room-info {
+    margin-top: 15px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .room-name {
+    width: 100%;
+    background-color: white;
+    padding: 15px;
+  }
+  .startendday {
+    width: 100%;
+    padding: 15px;
+    background-color: #f5fafc;
+  }
+  .detail-info {
+    width: 100%;
+    background-color: white;
+    padding: 15px;
+  }
+  .img-room {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+  }
+  .img-room img {
+    width: 40%;
+    height: 50%;
+  }
+  

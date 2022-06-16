@@ -1,0 +1,134 @@
+<div style="background-color: #eeeeee; margin-top: 40px;">
+  <form onSubmit="{OnSubmit}" action="/confirm">
+    <!-- <div class="header-book">
+      <nav class="nav-book">
+        <div class="logo-nav-book">
+          <a class="logo-book">
+            <a href="/">
+              <img
+                src="https://ik.imagekit.io/tvlk/blog/2020/01/Traveloka_Primary_Logo.png?tr=dpr-1,w-675"
+                alt="logo"
+              />
+            </a>
+          </a>
+        </div>
+      </nav>
+    </div>
+    <div id="loader"></div> -->
+    <div class="book-content-wrapper">
+      <div class="customer-input">
+        <div class="tieude">
+          <h2>Đặt tour</h2>
+        </div>
+
+        <!-- <UserDataInput /> -->
+        <div>
+            <!-- <div class="wrap1">
+              <div class="customer-icon"></div>
+              <div class="customer-info">
+                <h4>Đăng nhập?</h4>
+                <a href="/login" class="col btn btn-outline-primary">
+                  Đăng nhập ngay
+                </a>
+                <h4>Đăng Kí?</h4>
+                <a href="/register" class="col btn btn-outline-info">
+                  Đăng kí ngay
+                </a>
+              </div>
+            </div> -->
+            <div class="tieude">
+              <h3>Thông tin của bạn</h3>
+            </div>
+            <div class="customer-info-input-wrapper">
+              <div class="customer-name">
+                <label for="name">Tên người liên hệ:</label>
+                <br />
+                <input
+                  required
+                  type="text"
+                  id="tenKH"
+                  
+                />
+              </div>
+              <div class="customer-phone-email">
+                <div class="phone">
+                  <label for="startday">Số di động:</label>
+                  <input
+                    required
+                    type="number"
+                    id="sdtKH"
+                    
+                  />
+                </div>
+                <div class="email">
+                  <label for="email">Email:</label>
+                  <input
+                    required
+                    type="email"
+                    id="emailKH"
+                    
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="tieude">
+          <h3>Chính sách hủy tour</h3>
+        </div>
+        <div class="huyphong">
+          <h3>Chính sách hủy đặt tour</h3>
+          <p>
+            Bạn sẽ được hoàn tiền 70% nếu bạn hủy tour. Bên phía đối tác cũng
+            có thể hủy tour của bạn, đồng thời hoàn 100% tiền đặt tour bạn đã
+            thanh toán.
+          </p>
+        </div>
+        <div class="tieude">
+          <h3>Important Notice</h3>
+        </div>
+        <div class="covid">
+          <h3>Important Notice</h3>
+          <p>
+            Vì tình hình COVID-19 đang diễn biến phức tạp, hãy chắc chắn rằng
+            chính sách hủy tour này phù hợp với nhu cầu của bạn.
+          </p>
+        </div>
+        <div class="tieude">
+          <h3>Chi tiết giá</h3>
+        </div>
+        <div class="chitietgia">
+          <div class="thanhtoan">
+            <h4>Tổng Tiền</h4>
+            <p>... VND</p>
+          </div>
+        </div>
+        <div class="xacnhan">
+          <p>
+            Khi nhấn vào nút này bạn công nhận mình đã đọc và đồng ý với các
+            Điều khoản & Điều kiện và Chính sách quyền riêng tư của Travelink
+          </p>
+          <button type="submit" class="btn btn-primary">Tiếp theo   <i nz-icon nzType="arrow-right" nzTheme="outline"></i></button>
+        </div>
+      </div>
+
+      <div class="room-info">
+        <div class="room-name">
+          <h5>items.ten_noiluutru</h5>
+          <p>items.diachi_noiluutru</p>
+        </div>
+        <div class="startendday">
+          <p>Ngày nhận phòng:</p>
+          <p>Ngày trả phòng:</p>
+        </div>
+
+        <div class="detail-info">
+          <p>Phòng:</p>
+          <p>Loại Giường:</p>
+          <p>Đơn giá:</p>
+        </div>
+        <img src="{room.link_hinhanh}" alt="" class="img-fluid" />
+      </div>
+    </div>
+  </form>
+</div>
